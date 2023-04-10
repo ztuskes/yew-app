@@ -37,7 +37,6 @@ impl Component for CounterComponent {
         }
     }
 }
-
 fn main() {
-    yew::start_app::<CounterComponent>();
+    yew::Renderer::<CounterComponent>::new().render();
 }
